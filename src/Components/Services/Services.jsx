@@ -3,7 +3,6 @@ import './Services.css';
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
-import Resume from './resume.pdf';
 import { motion } from 'framer-motion';
 
 import Card from '../Card/Card';
@@ -26,9 +25,9 @@ const Services = () => {
 
                 <button className='button s-button'>Download</button>
 
-                <button className='button s-button'>
+                {/* <button className='button s-button'>
                     Download CV
-                </button>
+                </button> */}
                 <div className='blur s-blurl' style={{ background: "#ABF1FF94" }}>
 
                 </div>
